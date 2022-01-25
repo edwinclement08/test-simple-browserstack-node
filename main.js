@@ -1,4 +1,4 @@
-const webdriver = require('webdriver')
+const webdriver = require('selenium-webdriver')
 
 var username = process.env.BROWSERSTACK_USERNAME;
 var accessKey = process.env.BROWSERSTACK_ACCESS_KEY;
