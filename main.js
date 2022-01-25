@@ -21,5 +21,6 @@ var capabilities = {
 
 var driver = new webdriver.Builder().
   usingServer("https://hub-cloud.browserstack.com/wd/hub").
+  forBrowser('chrome').
   withCapabilities(capabilities).
   build();
