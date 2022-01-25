@@ -20,7 +20,7 @@ var capabilities = {
 };
 
 var driver = new webdriver.Builder().
-  usingServer("https://hub-cloud.browserstack.com/wd/hub").
   forBrowser('chrome').
+  usingServer("https://hub-cloud.browserstack.com/wd/hub").
   withCapabilities(capabilities).
   build();
